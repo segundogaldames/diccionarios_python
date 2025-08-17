@@ -85,6 +85,8 @@ while estado:
         elif opcion == 7: #opcion salir
             print("Muchas gracias por usar nuestra aplicación")
             estado = False
+        else:
+            print("Ingrese una opción válida")
 
     except ValueError:
         print("Error: dato incorrecto")
